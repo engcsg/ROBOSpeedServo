@@ -7,49 +7,6 @@ clsSpeedServo srv03(10);
 clsSpeedServo srv04(12);
 
 /*
-    Controle da garra
-*/
-// #define HAL_GARRA_DC_A  22
-// #define HAL_GARRA_DC_B  23
-// #define HAL_GARRA_DC_E  25
-
-// bool garraAberta = true;
-
-// void garra_init(){
-//     pinMode(HAL_GARRA_DC_A, OUTPUT);
-//     pinMode(HAL_GARRA_DC_B, OUTPUT);
-//     pinMode(HAL_GARRA_DC_E, OUTPUT);
-
-//     digitalWrite(HAL_GARRA_DC_A, LOW);
-//     digitalWrite(HAL_GARRA_DC_B, LOW);
-//     digitalWrite(HAL_GARRA_DC_E, LOW);
-// }
-
-// void garra_abrir(){
-//     if (!garraAberta){
-//         digitalWrite(HAL_GARRA_DC_A, HIGH);
-//         digitalWrite(HAL_GARRA_DC_B, LOW);
-        
-//         digitalWrite(HAL_GARRA_DC_E, HIGH);
-//         delay(1500);
-//         garraAberta = true;
-//         digitalWrite(HAL_GARRA_DC_E, LOW);
-//     }
-// }
-
-// void garra_fechar(){
-//     if (garraAberta){
-//         digitalWrite(HAL_GARRA_DC_A, LOW);
-//         digitalWrite(HAL_GARRA_DC_B, HIGH);
-        
-//         digitalWrite(HAL_GARRA_DC_E, HIGH);
-//         delay(1500);
-//         garraAberta = false;
-//         digitalWrite(HAL_GARRA_DC_E, LOW);
-//     }
-// }
-
-/*
     Rotinas de controle dos servos
 */
 
