@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/engcsg/.platformio/penv/bin:/Users/engcsg/.platformio/penv:/Users/engcsg/python_tests/venvcv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "files.associations": {
+        "cmath": "cpp",
+        "cstdlib": "cpp"
+    }
+}
