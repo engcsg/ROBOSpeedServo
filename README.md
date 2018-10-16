@@ -2,6 +2,9 @@
 Arduino Due Class to control ServoMotors with threading and speed control.
 Classe para controlar servo-motores com suporte para threads e controle de velocidade.
 
+## Releases
+Download releases deste código em: https://github.com/engcsg/ROBOSpeedServo/releases
+
 ## Compatibilidade
 Compatível e testado com o Arduino Due e com 4 servo-motores simultâneos.
 Não foi testado com nenhum outro Arduino.
