@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "classes/clsSpeedServo.h"
+#include "clsSpeedServo.h"
 
 clsSpeedServo srv01(8);
 clsSpeedServo srv02(9);
