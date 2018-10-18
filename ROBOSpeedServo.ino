@@ -95,5 +95,5 @@ void setup()
 
 void loop()
 {
-    loopInterno();
+    rotinaTick();
 }
