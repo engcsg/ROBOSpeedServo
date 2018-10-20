@@ -38,9 +38,6 @@ void rotinaTick(){
     srv02.tick();
     srv03.tick();
     srv04.tick();
-
-    srv01.setTempo(5); // use para definir um tempo de 5ms entre cada passo do motor
-    srv01.setDelta(3); // define um passo do servo como 3 graus.
 }
 
 /*
@@ -54,6 +51,9 @@ void rotinaServo(){
     srv02.write(180);
     srv03.write(180);
     srv04.write(180);
+
+    srv01.setTempo(5); // use para definir um tempo de 5ms entre cada passo de Delta graus do motor
+    srv01.setDelta(3); // define um passo do servo como 3 graus.
 
     srv02.wait();
     srv03.wait();
